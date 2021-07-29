@@ -13,7 +13,7 @@ router.get(`/`, async (req, res) =>{
     res.send(userList);
 })
 
-router.get('/:id', async(req,res)=>{
+router.get('/profile/:id', async(req,res)=>{
     const user = await User.findById(req.params.id).select('-passwordHash');
 
     if(!user) {
@@ -78,7 +78,6 @@ router.put('/:id',async (req, res)=> {
 
 router.post('/login', async (req,res) => {
     const user = await User.findOne({email: req.body.email})
-    const secret = process.env.secret;
     if(!user) {
         return res.status(400).send('The user not found');
     }
@@ -89,8 +88,8 @@ router.post('/login', async (req,res) => {
                 userId: user.id,
                 isAdmin: user.isAdmin
             },
-            secret,
-            {expiresIn : '1d'}
+            'shhhhhhared-secret',
+            {expiresIn : '65d'}
         )
        
         res.status(200).send({user: user.email , token: token}) 
