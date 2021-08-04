@@ -22,7 +22,8 @@ An application programming interface (API) is a connection between computers or 
 <br>POST – Creates (Creating a new Product Category)
 <br>DELETE – (Deleting a blog post)
 <br>JSON (JavaScript Object Notation) is used to represent data on a server. It’s fairly easy to read by humans, and easy for machines/applications to understand.
-      
+https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products
+ 
 </div>
 
 ## About HEROKU :point_down: 
