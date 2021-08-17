@@ -14,6 +14,8 @@
 <a href="https://github.com/biswa2210/biswa2210" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="" height="30" width="40" /></a>
 </p>
 
+## URL :point_right: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/
+
 ## What is DAILY-DEALS-SERVER and Why have I made this API :point_down:
 
 <div align="justified">
@@ -32,7 +34,7 @@ An application programming interface (API) is a connection between computers or 
 <br>POST – Creates (Creating a new Product Category)
 <br>DELETE – (Deleting a blog post)
 <br>JSON (JavaScript Object Notation) is used to represent data on a server. It’s fairly easy to read by humans, and easy for machines/applications to understand.
-https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products
+
  
 </div>
 
@@ -111,16 +113,34 @@ APIs, or application program interfaces, are vital tools for businesses in all i
 ## Folder Structure :point_down:
 
 ```bash
-api-testing-biswa2210
-       ├── public/uploads
-       |          └── files are uploaded here
-       ├── serviceAccount
-       ├── data.json
-       ├── index.js
-       ├── package-lock.json
-       ├── package.json
-       ├── .env
-       └── procfile
+daily-deals-server
+       ├── helpers
+       ├── models
+       ├── routers
+       └── index.js
+```
+
+```bash
+models
+   ├── category.js
+   ├── order-item.js
+   ├── order.js
+   ├── product.js
+   └── user.js
+```
+
+```bash
+helpers
+   ├── error-handler.js
+   └── jwt.js
+```
+
+```bash
+routers
+   ├── categories.js
+   ├── order.js
+   ├── product.js
+   └── users.js
 ```
 
 ## Making :point_down:
