@@ -75,7 +75,7 @@ Firebase is a platform developed by Google for creating mobile and web applicati
 
 <div align="justified">
  
-I have made this API testing and run it in localhost where I defined the port number as 5000. So we can run this API in localhost through npm start. Using the API in localhost we can upload image files in uploads folder in public folder using POST REQUEST. After that it will be uploaded in my 'daily-deals-images-bucket's storage in https://console.firebase.google.com/project/daily-deals-images-bucket/storage/daily-deals-images-bucket.appspot.com/files in my firebase acount associated with my email id 'bbiswa471@gmail.com'. If a user is 'ADMIN USER' he or she will be able to get details like user details. For this he or she has to use GET REQUEST.
+I have made this API testing and run it in localhost where I defined the port number as 5000. So we can run this API in localhost through npm start. Using the API in localhost we can upload image files in uploads folder in public folder using POST REQUEST. Like this I can upload data like categories, products and they will be uploaded in my MongoDb account's(associated with my email id) Daily Deal's project's storage https://account.mongodb.com/account/login?n=%2Fv2&nextHash=%23org%2F60ed1689c7b1411657fcd1a5%2Fprojects. The images will be uploaded in my 'daily-deals-images-bucket's storage in https://console.firebase.google.com/project/daily-deals-images-bucket/storage/daily-deals-images-bucket.appspot.com/files in my firebase acount associated with my email id 'bbiswa471@gmail.com'. If a user is 'ADMIN USER' he or she will be able to get details like user details. For this he or she has to use GET REQUEST. We can also work with PUT, DEL etc requests to perform other tasks in backend.
  
 </div>
 
@@ -83,7 +83,7 @@ I have made this API testing and run it in localhost where I defined the port nu
 
 <div align="justified">
  
-I have made this API testing and hosted it in HEROKU. I have generated a link through HEROKU. I have used POSTMAN application for POST and GET requests for this API where I have created a workspace and pasted the link. Using the API link we can upload image files in uploads folder in public folder in HEROKU app storage using POST REQUEST. After that it will be uploaded in my 'daily-deals-images-bucket's storage in https://console.firebase.google.com/project/daily-deals-images-bucket/storage/daily-deals-images-bucket.appspot.com/files in my firebase acount associated with my email id 'bbiswa471@gmail.com'. If a user is 'ADMIN USER' he or she will be able to get details like user details. For this he or she has to use GET REQUEST. HEROKU filesystem is ephemeral it means it automatically deletes the files from its storage after a span of time.
+I have made this API testing and hosted it in HEROKU. I have generated a link through HEROKU. I have used POSTMAN application for POST, GET, DEL, PUT requests for this API where I have created a workspace and pasted the link. Using the API link we can upload image files in uploads folder in public folder in HEROKU app storage using POST REQUEST. After that it will be uploaded in my 'daily-deals-images-bucket's storage in https://console.firebase.google.com/project/daily-deals-images-bucket/storage/daily-deals-images-bucket.appspot.com/files in my firebase acount associated with my email id 'bbiswa471@gmail.com'. If a user is 'ADMIN USER' he or she will be able to get details like user details. For this he or she has to use GET REQUEST. HEROKU filesystem is ephemeral it means it automatically deletes the files from its storage after a span of time. Like this we can also send data like categories, products in my MongoDb account's(associated with my email id) Daily Deal's project's storage https://account.mongodb.com/account/login?n=%2Fv2&nextHash=%23org%2F60ed1689c7b1411657fcd1a5%2Fprojects. We can also work with PUT, DEL etc requests to perform other tasks in backend.
  
 </div>
 
@@ -106,7 +106,7 @@ The Heroku filesystem is ephemeral - that means that any changes to the filesyst
 
 <div align="justified">
   
-APIs, or application program interfaces, are vital tools for businesses in all industries. The importance of APIs from a technical standpoint, they allow the capabilities of one computer program to be used by another. They are a means by which two different programs are able to communicate. APIs represent more than technical conduits for sharing data. Well-designed APIs provide organizations with a critical link to data and services that enable rapid innovation, open up markets for new goods and services, and serve as the basis for future partnerships. APIs have the potential to transform businesses. Traditional strategies rely on large sales forces, paperwork and other time-consuming, outdated and expensive measures to run their businesses, and the practice is becoming less sustainable all the time. Forward-thinking companies are reducing costs and time spent by “building their solutions with best-of-breed components, which they access via APIs,”
+I have worked on my e-commerce android application Daily Deals with this API. APIs, or application program interfaces, are vital tools for businesses in all industries. The importance of APIs from a technical standpoint, they allow the capabilities of one computer program to be used by another. They are a means by which two different programs are able to communicate. APIs represent more than technical conduits for sharing data. Well-designed APIs provide organizations with a critical link to data and services that enable rapid innovation, open up markets for new goods and services, and serve as the basis for future partnerships. APIs have the potential to transform businesses. Traditional strategies rely on large sales forces, paperwork and other time-consuming, outdated and expensive measures to run their businesses, and the practice is becoming less sustainable all the time. Forward-thinking companies are reducing costs and time spent by “building their solutions with best-of-breed components, which they access via APIs,”
  
 </div>
 
@@ -128,6 +128,14 @@ models
    ├── product.js
    └── user.js
 ```
+I have made some data structures for my application. Using API I have added these accordingly. For products I have specified keywords for Products, Category, Orders, Users, OrderItems. I have worked with following data structures with this API for my application
+
+
+<div align="center">
+ 
+<a href="pics/HELPER-SS4.png"><img src="pics/HELPER-SS4.png" width="800" height= "350"></a>
+ 
+</div>
 
 ```bash
 helpers
