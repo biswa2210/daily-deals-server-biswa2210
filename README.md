@@ -128,7 +128,7 @@ models
    ├── product.js
    └── user.js
 ```
-I have made some data structures for my application. Using API I have added these accordingly. For products I have specified keywords for Products, Category, Orders, Users, OrderItems. I have worked with following data structures with this API for my application
+I have made some data structures for my application. Using API I have added these accordingly. For products I have specified keywords for Products, Category, Orders, Users, OrderItems. I have worked with following data structures with this API for my application.
 
 
 <div align="center">
@@ -142,7 +142,7 @@ helpers
    ├── error-handler.js
    └── jwt.js
 ```
-
+In this part there are 2 main js files. error-handler.js and jwt.js. I have used error-handler.js for getting error notification when registered email id doesn't match with login email id. JSON Web Token is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims. The tokens are signed either using a private secret or a public/private key. JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA. This is mainly used for authorization and infromation exchange. When we register and then login with an email id then we will get a jwt as response. Here when we decrypt the encrypted jwt then we will be able to find out if the user is an admin user or not. For this reason jwt is used.
 ```bash
 routers
    ├── categories.js
@@ -150,6 +150,7 @@ routers
    ├── product.js
    └── users.js
 ```
+We have used different urls to work diffent tasks. We have created different routes to work with categories, orders, products, users. I have used categories routing to add, delete, get categories. I have used products routing to add, delete, get products. I have used orders routing to add, delete, get orders. I have used users routing to add, delete, get users.
 
 ## Making :point_down:
 
