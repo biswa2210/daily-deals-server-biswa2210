@@ -155,7 +155,41 @@ routers
 
 <div align="center">
 
-<a href="pics/todo1.PNG"><img src="pics/todo1.PNG" width="400" height= "300"></a> <a href="pics/todo2.PNG"><img src="pics/todo2.PNG" width="400" height= "300"></a>
+<a href="pics/dd1.PNG"><img src="pics/dd1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd2.PNG"><img src="pics/dd2.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd2.1.PNG"><img src="pics/dd2.1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd3.PNG"><img src="pics/dd3.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd3.1.PNG"><img src="pics/dd3.1.PNG" width="800" height= "350"></a>
+ 
+<a href="pics/dd4.PNG"><img src="pics/dd4.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd4.1.PNG"><img src="pics/dd4.1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd5.PNG"><img src="pics/dd5.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd5.1.PNG"><img src="pics/dd5.1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd6.PNG"><img src="pics/dd6.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd6.1.PNG"><img src="pics/dd6.1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd7.PNG"><img src="pics/dd7.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd7.1.PNG"><img src="pics/dd7.1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd7.2.PNG"><img src="pics/dd7.2.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd8.PNG"><img src="pics/dd8.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd8.1.PNG"><img src="pics/dd8.1.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd9.PNG"><img src="pics/dd9.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd10.PNG"><img src="pics/dd10.PNG" width="800" height= "350"></a> 
   
 </div>
 
