@@ -190,6 +190,12 @@ routers
 <a href="pics/dd9.PNG"><img src="pics/dd9.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd10.PNG"><img src="pics/dd10.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd11.PNG"><img src="pics/dd11.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd12.PNG"><img src="pics/dd12.PNG" width="800" height= "350"></a> 
+ 
+<a href="pics/dd13.PNG"><img src="pics/dd13.PNG" width="800" height= "350"></a> 
   
 </div>
 
