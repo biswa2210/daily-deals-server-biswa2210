@@ -164,27 +164,55 @@ We have used different urls to work diffent tasks. We have created different rou
 
 <div align="center">
 
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/register
+ REQUEST: POST
+ TASK: This url with this request is used to register in daily-deals-server.
+ 
 <a href="pics/dd1.PNG"><img src="pics/dd1.PNG" width="800" height= "350"></a> 
+ 
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/login
+ REQUEST: POST
+ TASK: This url with this request is used to login in daily-deals-server and a bearer key comes in response which is used for further tasks as an admin user.
  
 <a href="pics/dd2.PNG"><img src="pics/dd2.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd2.1.PNG"><img src="pics/dd2.1.PNG" width="800" height= "350"></a> 
  
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/users
+ REQUEST: GET
+ TASK: This url with this request is used to get all users' details of daily-deals-server.
+ 
 <a href="pics/dd3.PNG"><img src="pics/dd3.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd3.1.PNG"><img src="pics/dd3.1.PNG" width="800" height= "350"></a>
+
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/categories
+ REQUEST: POST
+ TASK: This url with this request is used to add category in daily-deals-server.
  
 <a href="pics/dd4.PNG"><img src="pics/dd4.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd4.1.PNG"><img src="pics/dd4.1.PNG" width="800" height= "350"></a> 
  
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/categories
+ REQUEST: GET
+ TASK: This url with this request is used to get all categories of daily-deals-server.
+ 
 <a href="pics/dd5.PNG"><img src="pics/dd5.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd5.1.PNG"><img src="pics/dd5.1.PNG" width="800" height= "350"></a> 
  
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products
+ REQUEST: POST
+ TASK: This url with this request is used to add product in daily-deals-server.
+ 
 <a href="pics/dd6.PNG"><img src="pics/dd6.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd6.1.PNG"><img src="pics/dd6.1.PNG" width="800" height= "350"></a> 
+ 
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products
+ REQUEST: GET
+ TASK: This url with this request is used to get all products of daily-deals-server.
  
 <a href="pics/dd7.PNG"><img src="pics/dd7.PNG" width="800" height= "350"></a> 
  
@@ -192,17 +220,41 @@ We have used different urls to work diffent tasks. We have created different rou
  
 <a href="pics/dd7.2.PNG"><img src="pics/dd7.2.PNG" width="800" height= "350"></a> 
  
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products/gallery-images/:id
+ REQUEST: PUT
+ TASK: This url with this request is used to add slider images of a product in daily-deals-server.
+ 
 <a href="pics/dd8.PNG"><img src="pics/dd8.PNG" width="800" height= "350"></a> 
  
 <a href="pics/dd8.1.PNG"><img src="pics/dd8.1.PNG" width="800" height= "350"></a> 
  
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products/get/featured/:count
+ REQUEST: GET
+ TASK: This url with this request is used to get all featured products of daily-deals-server.
+ 
 <a href="pics/dd9.PNG"><img src="pics/dd9.PNG" width="800" height= "350"></a> 
+
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products/get/count
+ REQUEST: GET
+ TASK: This url with this request is used to get count of all products of daily-deals-server.
  
 <a href="pics/dd10.PNG"><img src="pics/dd10.PNG" width="800" height= "350"></a> 
+
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/products/:id
+ REQUEST: DEL
+ TASK: This url with this request is used to delete a product in daily-deals-server.
  
 <a href="pics/dd11.PNG"><img src="pics/dd11.PNG" width="800" height= "350"></a> 
  
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/categories/:id
+ REQUEST: DEL
+ TASK: This url with this request is used to delete a category in daily-deals-server.
+ 
 <a href="pics/dd12.PNG"><img src="pics/dd12.PNG" width="800" height= "350"></a> 
+ 
+ URL: https://daily-deals-server-biswa2210.herokuapp.com/api/v1/users/:id
+ REQUEST: DEL
+ TASK: This url with this request is used to delete a user in daily-deals-server.
  
 <a href="pics/dd13.PNG"><img src="pics/dd13.PNG" width="800" height= "350"></a> 
   
