@@ -24,6 +24,8 @@ I have made this DAILY-DEALS-SERVER to work on my e-commerce grocery android app
 
 </div>
 
+## URL :point_right: https://github.com/biswa2210/daily-deals-FrontEnd/tree/master
+
 ## About API :point_down: 
 
 <div align="justified">
@@ -257,7 +259,9 @@ We have used different urls to work diffent tasks. We have created different rou
  TASK: This url with this request is used to delete a user in daily-deals-server.<br>
  
 <a href="pics/dd13.PNG"><img src="pics/dd13.PNG" width="800" height= "350"></a> 
-  
+ 
+Orders, Categories and Products related some REQUESTS are added here, there are also other REQUESTS, which have been used for API designing.
+ 
 </div>
 
 
